@@ -1,0 +1,93 @@
+	public static void main(String[] args) {
+		int grade=40;
+		//grade>80 --> pass
+		//grade<80 --> fail
+		
+		//boolean
+		
+		double rate = 10.6;
+		boolean isOn = false;
+		isOn=true;
+		
+		//<,>, <=, >=, ==
+		if(grade>=80) {
+			System.out.println("pass");
+			System.out.println("congrats!!");
+		}
+		else 
+			System.out.println("fail");
+		
+		
+		
+		/*
+		 * if(condition){
+		 * 	statements......
+		 * }
+		 * else{
+		 * 	statements.....
+		 * }
+		 */
+		
+		
+		/*
+		 * grade>=90 A
+		 * grade>=80 B
+		 * 70 C
+		 * 60 D
+		 * <60 F
+		 */
+		grade=70;
+		//every "true" condition will be executed
+		
+		if(grade>=90)
+			System.out.println("A");
+		if(grade>=80)
+			System.out.println("B");
+		if(grade>=70)
+			System.out.println("C");
+		if(grade>=60)
+			System.out.println("D");
+		else
+			System.out.println("F");
+		
+		System.out.println("---------------------");
+		//once a "true" condition is found, rest will be skipped
+		grade=95;
+		if(grade>=90) {
+			System.out.println("A");
+			System.out.println("well done");
+		}
+		else if(grade>=80) {
+			System.out.println("B");
+		}
+		else if(grade>=70)
+			System.out.println("C");
+		else if(grade>=60)
+			System.out.println("D");
+		else {
+			System.out.println("F");
+			System.out.println("try again");
+		}
+		
+		
+		int a=5;
+		Scanner ali = new Scanner(System.in);
+		System.out.println("give me a number");
+		int b= ali.nextInt();
+		if(a==b)
+			System.out.println("They are equal");
+		else
+			System.out.println("Not equal");
+		
+		 
+		//!=
+		//5!=6 true
+		//5!=5 false
+		//==
+		//5==6 false
+		//5==5 true
+		System.out.println("--------------");
+		
+
+	}
+
