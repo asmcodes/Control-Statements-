@@ -1,0 +1,11 @@
+	public static void main(String[] args) {
+		int x=10, y=11;
+		//nested if
+		if(x>5) {
+			if(y>5)
+				System.err.println("bigger than 5");
+		}
+		else
+			System.out.println("less than 5");
+	}
+
